@@ -1,0 +1,53 @@
+Initialize engine version: 5.2.3f1 (f3d16a1fa2dd)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD Radeon HD 6410D (ID=0x9644)
+    Vendor:   ATI
+    VRAM:     241 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Public\Documents\Unity Projects\ModelType\Build\TestGame_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Public\Documents\Unity Projects\ModelType\Build\TestGame_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Public\Documents\Unity Projects\ModelType\Build\TestGame_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Public\Documents\Unity Projects\ModelType\Build\TestGame_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Public\Documents\Unity Projects\ModelType\Build\TestGame_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Public\Documents\Unity Projects\ModelType\Build\TestGame_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Public\Documents\Unity Projects\ModelType\Build\TestGame_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Public\Documents\Unity Projects\ModelType\Build\TestGame_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Public\Documents\Unity Projects\ModelType\Build\TestGame_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Public\Documents\Unity Projects\ModelType\Build\TestGame_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Public\Documents\Unity Projects\ModelType\Build\TestGame_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Public\Documents\Unity Projects\ModelType\Build\TestGame_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Public\Documents\Unity Projects\ModelType\Build\TestGame_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.077 seconds
+desktop: 1600x900 60Hz; virtual: 1600x900 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\Users\Public\Documents\Unity Projects\ModelType\Build\TestGame_Data\Managed\System.dll (this message is harmless)
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 1b0 -> priority: 1 
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 7.172894 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 172.
+Total: 0.371581 ms (FindLiveObjects: 0.098024 ms CreateObjectMapping: 0.018997 ms MarkObjects: 0.239742 ms  DeleteObjects: 0.012538 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.573709 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 191.
+Total: 0.268997 ms (FindLiveObjects: 0.032294 ms CreateObjectMapping: 0.015197 ms MarkObjects: 0.209347 ms  DeleteObjects: 0.011018 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.587767 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 255.
+Total: 0.445290 ms (FindLiveObjects: 0.048252 ms CreateObjectMapping: 0.017097 ms MarkObjects: 0.371201 ms  DeleteObjects: 0.007598 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.433138 ms
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 236.
+Total: 0.805093 ms (FindLiveObjects: 0.039133 ms CreateObjectMapping: 0.016337 ms MarkObjects: 0.726445 ms  DeleteObjects: 0.022036 ms)
+
