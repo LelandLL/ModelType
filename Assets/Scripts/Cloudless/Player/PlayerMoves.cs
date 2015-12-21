@@ -78,7 +78,7 @@ public class PlayerMoves : MonoBehaviour {
     void OnDestroy()
     {
         weaponInventory.SwitchWeapon(WeaponControl.WeaponSelected.Basic);
-        Application.LoadLevel(0);
+        Application.LoadLevel("Main Menu");
     }
 }
 

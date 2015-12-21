@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 88fa95c876c4f444fb6705fbfec2a1d0
-timeCreated: 1449635913
+timeCreated: 1450243227
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -15,6 +15,8 @@ TextureImporter:
     21300016: beams_8
     21300018: beams_9
     21300020: beams_10
+    21300022: beams_11
+    21300024: beams_12
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -134,13 +136,13 @@ TextureImporter:
     - name: beams_7
       rect:
         serializedVersion: 2
-        x: 221
+        x: 230
         y: 58
-        width: 29
-        height: 66
+        width: 8
+        height: 63
       alignment: 0
       pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 4, z: 0, w: 3}
     - name: beams_8
       rect:
         serializedVersion: 2
@@ -168,6 +170,26 @@ TextureImporter:
         y: 153
         width: 21
         height: 67
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: beams_11
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 157
+        width: 19
+        height: 62
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: beams_12
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 317
+        width: 23
+        height: 25
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}

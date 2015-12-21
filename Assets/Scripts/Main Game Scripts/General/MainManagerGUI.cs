@@ -7,6 +7,14 @@ public class MainManagerGUI : MonoBehaviour {
     {
         Application.LoadLevel("Gameplay");
     }
+    public void Cloudless()
+    {
+        Application.LoadLevel("Cloudless");
+    }
+    public void Raptor()
+    {
+        Application.LoadLevel("Zaptor");
+    }
     public void Explanation()
     {
         Application.LoadLevel("Instructions");

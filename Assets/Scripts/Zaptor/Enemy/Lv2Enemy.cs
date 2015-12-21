@@ -1,0 +1,24 @@
+﻿using UnityEngine;
+using System.Collections;
+
+public class Lv2Enemy: EnemyBase
+{
+
+    // Use this for initialization
+    protected override void Start()
+    {
+        base.Start();
+        hp = 12;
+        speed = Random.Range(-3.0f, -3.6f);
+        zigZagInterval = 1.5f;
+        score = 10;
+
+    }
+
+
+    // Update is called once per frame
+    protected override void Update()
+    {
+        base.Update();
+    }
+}

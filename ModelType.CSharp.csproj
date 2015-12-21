@@ -49,11 +49,17 @@
     <Reference Include="UnityEngine">
       <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.Advertisements">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Advertisements.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Networking">
       <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
@@ -96,9 +102,39 @@
     <Compile Include="Assets\Scripts\Main Game Scripts\General\MainManagerGUI.cs" />
     <Compile Include="Assets\Scripts\Main Game Scripts\General\RenderExtendions.cs.cs" />
     <Compile Include="Assets\Scripts\Main Game Scripts\General\Scene.cs" />
+    <Compile Include="Assets\Scripts\Zaptor\Enemy\EnemyBase.cs" />
+    <Compile Include="Assets\Scripts\Zaptor\Enemy\LazerProj.cs" />
+    <Compile Include="Assets\Scripts\Zaptor\Enemy\Lv1Enemy.cs" />
+    <Compile Include="Assets\Scripts\Zaptor\Enemy\Lv2Enemy.cs" />
+    <Compile Include="Assets\Scripts\Zaptor\Enemy\Lv3Enemy.cs" />
+    <Compile Include="Assets\Scripts\Zaptor\Enemy\Lv4Enemy.cs" />
+    <Compile Include="Assets\Scripts\Zaptor\Enemy\Lv4EnemyShooter.cs" />
+    <Compile Include="Assets\Scripts\Zaptor\Enemy\Lv4Projecticle.cs" />
+    <Compile Include="Assets\Scripts\Zaptor\Enemy\SpawnerBase.cs" />
+    <Compile Include="Assets\Scripts\Zaptor\GUI\BombGUI.cs" />
+    <Compile Include="Assets\Scripts\Zaptor\GUI\HealthBar.cs" />
+    <Compile Include="Assets\Scripts\Zaptor\GUI\MenuMusic.cs" />
+    <Compile Include="Assets\Scripts\Zaptor\GUI\MenuScript.cs" />
+    <Compile Include="Assets\Scripts\Zaptor\GUI\Pause.cs" />
+    <Compile Include="Assets\Scripts\Zaptor\GUI\PauseTxt.cs" />
+    <Compile Include="Assets\Scripts\Zaptor\GUI\Points.cs" />
+    <Compile Include="Assets\Scripts\Zaptor\General\Audio.cs" />
+    <Compile Include="Assets\Scripts\Zaptor\General\Explosion.cs" />
+    <Compile Include="Assets\Scripts\Zaptor\General\ShakeCamera.cs" />
+    <Compile Include="Assets\Scripts\Zaptor\Player\Bomb.cs" />
+    <Compile Include="Assets\Scripts\Zaptor\Player\Bombard.cs" />
+    <Compile Include="Assets\Scripts\Zaptor\Player\Controller.cs" />
+    <Compile Include="Assets\Scripts\Zaptor\Player\Laser.cs" />
+    <Compile Include="Assets\Scripts\Zaptor\Player\Lv1CannonScript.cs" />
+    <Compile Include="Assets\Scripts\Zaptor\Player\YourBullet.cs" />
+    <Compile Include="Assets\Scripts\Zaptor\PowerUp\BombUp.cs" />
+    <Compile Include="Assets\Scripts\Zaptor\PowerUp\HPUp.cs" />
+    <Compile Include="Assets\Scripts\Zaptor\PowerUp\WeaponUp.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Animations\GUI &amp; Icons\Buttons\Buttons\Readme.txt" />
+    <None Include="Assets\Animations\Ships\Faction1-Spaceships-by-MillionthVector\Credits.txt" />
+    <None Include="Assets\Animations\Ships\Faction10-Spaceships-by-MillionthVector\Credits.txt" />
     <None Include="Assets\Animations\Ships\Faction5-Spaceships-by-MillionthVector\Credits.txt" />
     <None Include="Assets\Fonts\fonts\Abel\OFL.txt" />
     <None Include="Assets\Fonts\fonts\Archivo_Narrow\OFL.txt" />
