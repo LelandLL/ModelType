@@ -19,7 +19,7 @@ public class LazerProj : MonoBehaviour {
             Destroy(gameObject);
     }
 
-    void OnCollisionEnter(Collision other)
+    void OnCollisionEnter2D(Collision2D other)
     {
         //print ("Collided w/ " + other.gameObject.tag);
         if (other.gameObject.tag == "Player")

@@ -11,7 +11,7 @@ public class Lv2Enemy: EnemyBase
         hp = 12;
         speed = Random.Range(-3.0f, -3.6f);
         zigZagInterval = 1.5f;
-        score = 10;
+        score += 10;
 
     }
 

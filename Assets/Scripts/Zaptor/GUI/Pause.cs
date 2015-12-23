@@ -24,12 +24,12 @@ public class Pause : MonoBehaviour {
         if (gamePaused == true)
         {
             Time.timeScale = 0;
-            GameObject.Find("PauseMenu").GetComponent<GUITexture>().enabled = true;
+            GameObject.Find("PauseGame").GetComponent<GUITexture>().enabled = true;
         }
         else
         {
             Time.timeScale = 1;
-            GameObject.Find("PauseMenu").GetComponent<GUITexture>().enabled = false;
+            GameObject.Find("PauseGame").GetComponent<GUITexture>().enabled = false;
         }
 
     }

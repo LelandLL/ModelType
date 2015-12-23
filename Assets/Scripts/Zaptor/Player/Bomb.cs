@@ -57,9 +57,9 @@ public class Bomb : MonoBehaviour {
                     case "L2Enemy(Clone)":
                         o.GetComponent<Lv2Enemy>().Kill();
                         break;
-                    //case "L3Enemy(Clone)":
-                    //    o.GetComponent<Lv3Enemy>().Kill();
-                    //    break;
+                    case "L3Enemy(Clone)":
+                        o.GetComponent<Lv3Enemy>().Kill();
+                        break;
                 }
             }
         }

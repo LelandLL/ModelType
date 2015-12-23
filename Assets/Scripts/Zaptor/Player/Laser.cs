@@ -117,10 +117,10 @@ public class Laser : MonoBehaviour {
                     case "L2Enemy":
                         hit.collider.gameObject.GetComponent<Lv2Enemy>().hp -= 5;
                         break;
-                    //case "L3Enemy(Clone)":
-                    //case "L3Enemy":
-                    //    hit.collider.gameObject.GetComponent<Lv3Enemy>().hp -= 5;
-                    //    break;
+                    case "L3Enemy(Clone)":
+                    case "L3Enemy":
+                        hit.collider.gameObject.GetComponent<Lv3Enemy>().hp -= 5;
+                        break;
                 }
 
                 break;

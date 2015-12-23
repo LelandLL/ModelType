@@ -83,7 +83,7 @@ public class Controller : MonoBehaviour
 
     }
 
-    void OnCollisionEnter(Collision other)
+    void OnCollisionEnter2D(Collision2D other)
     {
         if (other.transform.tag == "PowerUp")
             AudioSource.PlayClipAtPoint(powerUp, other.transform.position);

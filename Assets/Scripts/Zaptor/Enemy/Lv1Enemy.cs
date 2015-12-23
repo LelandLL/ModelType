@@ -10,7 +10,7 @@ public class Lv1Enemy : EnemyBase {
         hp = 8;
         speed = Random.Range(-3.2f, -1.8f);
         isZigZag = false;
-        score = 5;
+        score += 5;
     }
 
 

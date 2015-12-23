@@ -44,10 +44,10 @@ public class ShakeCamera : MonoBehaviour {
 
     IEnumerator Restart()
     {
-        print("Waiting for 5 seconds for new game!");
-        yield return new WaitForSeconds(5f);
+        print("Waiting for 3 seconds for new game!");
+        yield return new WaitForSeconds(3f);
         print("wait is over");
-        Application.LoadLevel("game");
+        Application.LoadLevel("Zaptor");
     }
 
 }

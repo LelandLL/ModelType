@@ -22,7 +22,7 @@ public class PauseTxt : MonoBehaviour {
     {
         // change color on mouse over
         GetComponent<GUIText>().color = Color.green;
-        GetComponent<AudioSource>().Play();
+        //GetComponent<AudioSource>().Play();
     }
 
     void OnMouseExit()
@@ -36,7 +36,7 @@ public class PauseTxt : MonoBehaviour {
         Pause.gamePaused = false;
         if (this.name == "TXTRestart")
         {
-            Application.LoadLevel("game");
+            Application.LoadLevel("Zaptor");
 
             // restart the music
             Audio.TogglePause(false);
@@ -46,6 +46,6 @@ public class PauseTxt : MonoBehaviour {
             Audio.TogglePause(Pause.gamePaused);
         }
         if (this.name == "TXTMainMenu")
-            Application.LoadLevel("menu");
+            Application.LoadLevel("Main Menu");
     }
 }

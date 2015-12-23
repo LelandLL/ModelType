@@ -3,13 +3,40 @@ using System.Collections;
 
 public class Lv4Projecticle : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+    private Vector3 dir;
+    public int speed;
+
+    // Use this for initialization
+    void Start()
+    {
+        try
+        {
+            dir = GameObject.Find("Player").transform.position - transform.position;
+            dir.Normalize();
+        }
+        catch
+        {
+            Destroy(gameObject);
+        }
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        transform.Translate(dir * Time.deltaTime * speed);
+
+        if (transform.position.x < -15 || transform.position.x > 15 ||
+           transform.position.y < -10 || transform.position.y > 10)
+            Destroy(gameObject);
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.tag == "Player")
+        {
+
+            other.gameObject.GetComponent<Controller>().hp -= 6;
+            Destroy(gameObject);
+        }
+    }
 }
